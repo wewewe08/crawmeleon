@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    min-height: 98vh;
+    min-height: 100vh;
 }
 
 a {
@@ -17,16 +17,18 @@ a {
 
 #download-btn-container {
     margin-top: 20px;
+    width: 200px;
 }
 
 #download-btn {
     transition: all 0.2s ease-in-out;
-    font-size: 25px;
+    font-size: 30px;
+    
     margin: -25px auto;
     padding: 5px 15px;
-    color: white;
-    background-color: #c29643;
-    border: 3px dashed #E2BB8F;
+    background-color: #c09340;
+    border: 3px dashed #c5a37c;
+    color: rgb(212, 212, 212);
     border-radius: 8px;
     text-shadow: 
     -2px -2px 0 #6F5118,  
@@ -38,11 +40,10 @@ a {
 
 #download-btn:hover {
     cursor: pointer;
-    background-color: #ac8339;
-    border: 3px dashed #b69773;
+    color: white;
+    background-color: #c29643;
+    border: 3px dashed #E2BB8F;
 }
-
-
 
 #text {
     margin: 0 auto;
@@ -51,4 +52,26 @@ a {
     2px -2px 0 #6F5118,
     -2px 2px 0 #6F5118,
     2px 2px 0 #6F5118;
+}
+
+.home-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.home-wave svg {
+    position: relative;
+    display: block;
+    width: calc(175% + 1.3px);
+    height: 94px;
+    transform: rotateY(180deg);
+}
+
+.home-wave .shape-fill {
+    fill: #f5f5dc;
 }

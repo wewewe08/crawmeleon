@@ -5,7 +5,7 @@ function About() {
         <div className="about" id="about-page">
             <div className="about-container">
                 <div className="about-img-flex-box">
-                    <img src="/speed.png" className="flex-img" alt="dashing-crawmeleon"></img>
+                    <img src="/speed.svg" className="flex-img" alt="dashing-crawmeleon"></img>
                 </div>
                 <div className="about-text-flex-box">
                     <div className="header-box">

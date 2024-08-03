@@ -22,7 +22,7 @@ const ParticlesComponent = () => {
       fpsLimit: 120,
       particles: {
         color: {
-          value: "#ffa500",
+          value: "#ffba4d",
         },
         move: {
           direction: "none",
@@ -47,7 +47,7 @@ const ParticlesComponent = () => {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 4 },
+          value: { min: 1, max: 5 },
         },
       },
       detectRetina: true,

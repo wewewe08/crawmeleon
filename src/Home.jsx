@@ -1,4 +1,5 @@
 import './Home.css';
+import ParticlesComponent from "./components/ParticlesComponent.js"
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
       <a href="https://crewmeleon.itch.io/crawmeleon" target="_blank" rel="noreferrer" role="button">
         <div id="download-btn">DOWNLOAD GAME</div>
       </a>
+      <ParticlesComponent />
     </div>
   );
 }

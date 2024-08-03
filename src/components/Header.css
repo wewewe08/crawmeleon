@@ -35,3 +35,7 @@
     width: 60px;
     border-radius: 20px;
 }
+
+#top-img{
+    bottom: 0;
+}

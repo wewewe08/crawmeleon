@@ -4,17 +4,25 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 98vh;
 }
 
 a {
     text-decoration: none;
 }
 
+#logo-text {
+    margin-top: -40px;
+}
+
+#download-btn-container {
+    margin-top: 20px;
+}
+
 #download-btn {
     transition: all 0.2s ease-in-out;
     font-size: 25px;
-    margin: 30px auto;
+    margin: -25px auto;
     padding: 5px 15px;
     color: white;
     background-color: #c29643;
@@ -30,10 +38,11 @@ a {
 
 #download-btn:hover {
     cursor: pointer;
-    transform: scale(1.1);
     background-color: #ac8339;
     border: 3px dashed #b69773;
 }
+
+
 
 #text {
     margin: 0 auto;

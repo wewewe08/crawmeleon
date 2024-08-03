@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';
-import Home from './Home.js'
-import Header from "./Header.js"
+import Home from './Home.jsx'
+import Header from "./Header.jsx"
 
 import reportWebVitals from './reportWebVitals.js';
 

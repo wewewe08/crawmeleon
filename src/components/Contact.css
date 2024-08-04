@@ -1,0 +1,15 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #6F5118,  
+    2px -2px 0 #6F5118,
+    -2px 2px 0 #6F5118,
+    2px 2px 0 #6F5118;
+    background-color: #c29643 ;
+    min-height: 50vh;
+}
+

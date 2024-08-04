@@ -21,6 +21,9 @@ function About() {
                     </div>
                 </div>
             </div>
+            <div class="about-wave">
+                <img alt="wave" src="/wave2.svg"></img>
+            </div>
         </div>
     );
 }

@@ -1,15 +1,22 @@
 #about-page {
     margin: 0 auto;
     min-width: 100vh;
+    position: relative;
     box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.5);
     background: linear-gradient(to bottom, #f5f5dc, #d6d6ae);
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #6F5118,  
+    2px -2px 0 #6F5118,
+    -2px 2px 0 #6F5118,
+    2px 2px 0 #6F5118;
 }
 
 .about-container {
     display: flex;
     align-items: center;
     margin: 0px 70px;
-    min-height: 20vh;
+    min-height: 65vh;
 }
 
 hr {
@@ -23,13 +30,7 @@ h1 {
 
 p {
     margin: 20px 30px;
-    color: white;
     font-size: 20px;
-    text-shadow: 
-    -2px -2px 0 #6F5118,  
-    2px -2px 0 #6F5118,
-    -2px 2px 0 #6F5118,
-    2px 2px 0 #6F5118;
 }
 
 .about-img-flex-box {
@@ -56,12 +57,6 @@ p {
     background-color: #c29643;
     border: 3px dashed #E2BB8F;
     text-align: center;
-    color: white;
-    text-shadow: 
-    -2px -2px 0 #6F5118,  
-    2px -2px 0 #6F5118,
-    -2px 2px 0 #6F5118,
-    2px 2px 0 #6F5118;
 }
 
 .about-info {
@@ -70,7 +65,7 @@ p {
 
 .flex-img {
     animation: float 8s ease-in-out infinite;
-    width:100%;
+    width:90%;
     height: auto;
 }
 
@@ -90,4 +85,25 @@ p {
     100% {
         transform: translateX(0) translateY(5%) rotate(3deg);
     }
+}
+
+.about-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.about-wave img {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 60px;
+}
+
+.about-wave .shape-fill {
+    fill: #c29643;
 }

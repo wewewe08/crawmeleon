@@ -101,4 +101,12 @@ a {
     .top-img {
         transform: scale(0.8);
     }
+
+    .home-wave img {
+        position: relative;
+        display: block;
+        width: calc(175% + 1.3px);
+        height: 60px;
+        transform: rotateY(180deg);
+    }
 }

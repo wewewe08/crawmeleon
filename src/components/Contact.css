@@ -55,9 +55,10 @@
 }
 
 #flex-social {
+    transition: all 0.3s ease-in-out;
     padding: 0px 20px;
 }
 
-#flex-social .shape-fill:hover {
-    fill: red;
+#flex-social:hover {
+    transform: scale(1.1) rotate(5deg);
 }

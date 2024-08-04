@@ -7,7 +7,7 @@ function Header() {
             <ul className="nav-items">
                 <a href="#home-page">Home</a>
                 <a href="#about-page">About</a>
-                <a href="#App">Contact</a>
+                <a href="#contact-page">Contact</a>
             </ul>
         </nav>
     )

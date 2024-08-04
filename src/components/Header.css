@@ -4,7 +4,7 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.5);
+    box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.2);
     background: linear-gradient(to bottom, #c29643, #a07422);
     border: 3px dashed #E2BB8F;
     z-index: 100;

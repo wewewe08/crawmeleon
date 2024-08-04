@@ -35,7 +35,7 @@ a {
     2px -2px 0 #6F5118,
     -2px 2px 0 #6F5118,
     2px 2px 0 #6F5118;
-    box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.5);
+    box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.1);
 }
 
 #download-btn:hover {

@@ -11,14 +11,17 @@ function About() {
                     <div className="header-box">
                         <h1>Welcome to Crewmeleon!</h1>
                     </div>
-                    <div className="about-info">
-                        <p>
-                            Hi! We are Crewmeleon, an independent game developement studio based in New York. 
-                            Our passion lies in creating fun and engaging experiences for everyone. 
-                            We are currently working on a 4-player multiplayer game called Crawmeleon. 
-                            Join us on our development journey! 
-                        </p>
+                    <div className="about-info-container">
+                        <div className="info-text">
+                            <p>
+                                Hi! We are Crewmeleon, an independent game developement studio based in New York. 
+                                Our passion lies in creating fun and engaging experiences for everyone. 
+                                We are currently working on a 4-player multiplayer game called Crawmeleon. 
+                                Join us on our development journey! 
+                            </p>
+                        </div>
                     </div>
+                    <a href="#home-page" id="about-extended-btn">Learn more</a>
                 </div>
             </div>
             <div class="about-wave">

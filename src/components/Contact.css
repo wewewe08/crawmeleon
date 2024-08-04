@@ -82,3 +82,33 @@
 .footer-wave .shape-fill {
     fill: #0A1D27;
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .contact-text-flex-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10rem 18rem;
+        height: 15rem;
+        flex: 1;
+        background-color: #a07422;
+        border: 3px dashed #c29643;
+        border-radius: 10px;
+        transform: rotate(-1deg);
+        box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.1);
+    }
+
+    .header-box{
+        margin: 0 auto;
+        padding: 10px 0px;
+        line-height: 1;
+        width: 40%;
+        margin-top: -50px;
+        background-color: #c29643;
+        border: 3px dashed #E2BB8F;
+        border-radius: 10px;
+        text-align: center;
+        transform: rotate(2deg);
+        box-shadow:  0px 10px 5px 0px rgba(0,0,0,0.1);
+    }
+}

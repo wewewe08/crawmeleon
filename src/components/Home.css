@@ -13,6 +13,7 @@ a {
 
 #logo-text {
     margin-top: -40px;
+    width: 40%;
 }
 
 #download-btn-container {
@@ -74,4 +75,30 @@ a {
 
 .home-wave .shape-fill {
     fill: #f5f5dc;
+}
+
+@media only screen and (max-width: 480px) {
+    #logo-text {
+        width: 95%;
+    }
+
+    #download-btn-container {
+        margin-top: 20px;
+        width: 10rem;
+    }
+
+    #download-btn {
+        animation: none;
+        font-size: 1.1rem;
+        
+        margin: -25px auto;
+        padding: 5px 15px;
+        background-color: #c29643;
+        border: 3px dashed #E2BB8F;
+        color: white;
+    }
+
+    .top-img {
+        transform: scale(0.8);
+    }
 }

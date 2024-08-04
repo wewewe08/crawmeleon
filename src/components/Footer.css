@@ -41,3 +41,13 @@ footer {
     margin: 20px auto;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 480px) {
+    footer {
+        font-size: 1.2rem;
+    }
+
+    #copyright {
+        font-size: 0.9rem;
+    }
+}

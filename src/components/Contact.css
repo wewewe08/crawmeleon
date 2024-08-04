@@ -45,13 +45,12 @@
     height: 100%;
 }
 
-.info-text {
+.socials-text {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 0px 50px;
-    margin-bottom: 50px;
 }
 
 #flex-social {
@@ -61,4 +60,25 @@
 
 #flex-social:hover {
     transform: scale(1.1) rotate(5deg);
+}
+
+.footer-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.footer-wave img {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 60px;
+}
+
+.footer-wave .shape-fill {
+    fill: #0A1D27;
 }

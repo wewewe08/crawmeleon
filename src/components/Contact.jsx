@@ -11,7 +11,7 @@ function Contact() {
                     <p>
                         Follow us on social media or send us an email! We'd love to hear from you.
                     </p>
-                    <div className="info-text">
+                    <div className="socials-text">
                         <a href="https://x.com/crewmeleon" target="_blank" rel="noreferrer" role="button">
                             <img id="flex-social" alt="twitter" src="/twitter.svg"></img>
                         </a>
@@ -23,6 +23,9 @@ function Contact() {
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="footer-wave">
+                <img alt="wave" src="/footer.svg"></img>
             </div>
         </div>
     )
